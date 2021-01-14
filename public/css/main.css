@@ -140,7 +140,7 @@ nav {
   padding-top: 29px;
   letter-spacing: .3px;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
   color: #A0A0A0;
 }
 
@@ -221,6 +221,8 @@ nav {
   font-weight: 500;
   font-size: 12.8074px;
   line-height: 18px;
+  opacity: 0.5;
+  
 }
 
 
