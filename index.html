@@ -10,18 +10,18 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id=home>
         <div class="container">
             <nav class="nav">
-                <span class="nav__item">HOME</span>
-                <span class="nav__item">FEATURES</span>
-                <span class="nav__item">CONTACTS</span>
+                <a href="#home" class="nav__item"><span>HOME</span></a>
+                <a href="#features" class="nav__item"><span>FEATURES</span></a>
+                <a href="#contact" class="nav__item"><span>CONTACTS</span></a>
             </nav>
             <div class="header__div">
                 <div class="logo">
                     <img src="img/animation.gif" alt="logo" class="logo">
                 </div>
-                <a href="/">
+                <a href="#">
                     <div class="def__btn">
                         <span>DASHBOARD</span>
                     </div>
@@ -43,14 +43,17 @@
 
                         ускоряющих покупку релизов. Это разве не то, что вы так долго искали?</span>
                 </div>
-                <div class="buy__btn">
-                    <span>SOLD OUT</span>
-                </div>
+                <a href="#">
+                    <div class="buy__btn">
+                        <span>SOLD OUT</span>
+                    </div>
+                </a>
+
             </div>
 
         </div>
     </section>
-    <section class="features">
+    <section class="features" id=features>
         <div class="container">
             <div class="feature__div">
                 <div class="feature__title">
@@ -104,10 +107,10 @@
                             </div>
                             <div class="feature__block__text">
                                 <h3>Аналитика</h3>
-                                <p>Не знаете покупать вещь или нет? Выгодно ли ее держать долго или продавать сразу?
+                                <p>Не знаете покупать вещь или нет? Выгодно ли ее холдить или продавать сразу?
                                     Какие будут цены после релиза в России, Азии или Америке? Мы поможем и составим
                                     подробную аналитику на каждый релиз. Получайте
-                                    самую точную информацию до релиза. Выгодно инвестируйте деньги в кроссовки.
+                                    самую точную информацию до релиза. Выгодно инвестируйте в кроссовки.
 
                                 </p>
                             </div>
@@ -122,11 +125,9 @@
                                 <h3>Кастомные мониторы
                                 </h3>
                                 <p>Больше не нужно самостоятельно сидеть и проверять сайт каждую минуту. У нас стоят
-                                    одни из самых быстрых кастомных мониторов на ру , а также иностранные сайты. В том
-                                    числе имеются Благодаря нашим мониторам вы сможете одними из первых получать
-                                    уведомления о поступлении товаров на сайт. Некоторые наши мониторы отслеживают
-                                    backend сайтов, а значит вы сможете получать информацию еще задолго до релиза и
-                                    информации на самом сайте.</p>
+                                    одни из самых быстрых кастомных мониторов на ру , а также иностранные сайты.
+                                    Благодаря нашим мониторам вы сможете одними из первых получать
+                                    уведомления о поступлении товаров на сайт.</p>
                             </div>
                         </div>
                         <div class="feature__block__content">
@@ -136,9 +137,8 @@
                             <div class="feature__block__text">
                                 <h3>Bot restocks & Bot flipping
                                 </h3>
-                                <p>Тема ботов стала особенно актуальной в последнее время, так как может принести
-                                    гораздо больше прибыли, чем кроссовки. Мы уделяем особое внимание ботам, в
-                                    особенности их покупке за ритейл, а также инвестициям в них. Благодаря нашей
+                                <p>Тема ботов может принести гораздо больше прибыли, чем кроссовки. Мы уделяем особое
+                                    внимание ботам, их покупке за ритейл, а также инвестициям в них. Благодаря нашей
                                     информации, гайдам, а также монитору на Твиттер мемберы могут остлеживать дропы. А
                                     наша точная аналитика позволяет выгодно прикупить бота для дальнейшей перепродажи.
                                 </p>
@@ -330,7 +330,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id=contact>
         <div class="container">
             <div class="bottom__div">
                 <div class="contact__div">
@@ -338,20 +338,22 @@
                         <img src="img/logo.png" alt="logo" class="logo">
                     </div>
                     <div class="contact__img">
-                        <a href="/" class="social">
+                        <a href="https://www.instagram.com/raffle.waffl/" class="social">
                             <img src="img/instagram-3 1.svg" alt="">
                         </a>
-                        <a href="/" class="social">
+                        <a href="#" class="social">
                             <img src="img/twitter-2 1.png" alt="">
                         </a>
-                        <a href="/" class="social">
+                        <a href="https://t.me/rafflewaffle" class="social">
                             <img src="img/telegram-3 1.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="nav__bottom">
-                    <span class="nav__item__bottom">HOME</span>
-                    <span class="nav__item__bottom">FEATURES</span>
+                    <a href="#home"><span class="nav__item__bottom">HOME</span></a>
+                    <a href="#features"><span class="nav__item__bottom">FEATURES</span></a>
+
+
                 </div>
             </div>
         </div>

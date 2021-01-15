@@ -15,10 +15,8 @@ div {
 }
 
 body {
-    /* height: 4622px; */
     background-color: black;
     font-family: sans-serif;
-    /* background-image: url(../img/fon.png); */
     background-image: url(../img/FON4IK.png);
     background-size: cover;
     background-position: center center;
@@ -73,7 +71,6 @@ nav {
   opacity: 1;
   color: #8BEAFF;
 }
-
 
 
 
@@ -343,7 +340,8 @@ nav {
 }
 
 .faq__block {
-  padding-top: 50px;
+  padding-top: 40px;
+  margin-left: 20px;
 }
 
 .faq__block__content {
