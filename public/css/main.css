@@ -5,7 +5,7 @@
 
 
 
-  a {
+a {
     text-decoration: none;
     color: #fff
 }
@@ -319,7 +319,7 @@ nav {
 
 
 .faq__title {
-  padding-top: 150px;
+  padding-top: 10 0px;
   text-align: center;
   letter-spacing: 1px;
   font-size: 33px;
@@ -338,7 +338,7 @@ nav {
 }
 
 .faq__img {
-  height: 900px;
+  height: 1000px;
 }
 
 .faq__block {
@@ -346,7 +346,7 @@ nav {
 }
 
 .faq__block__content {
-  padding-top: 45px;
+  padding-top: 58px;
   
 }
 
@@ -355,9 +355,11 @@ nav {
 }
 
 .faq__block__text {
-  padding-top: 20px;
+  padding-top: 10px;
   font-weight: 500;
   font-size: 14px;
+  line-height: 20px;
+
 }
 
 
