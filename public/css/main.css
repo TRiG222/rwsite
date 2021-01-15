@@ -239,8 +239,16 @@ nav {
   margin-top: 60px;
   width: 85%;
   margin: auto;
-  padding-top: 160px;
+  padding-top: 100px;
   
+
+}
+
+.extension__title {
+  padding-top: 70px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 33px;
 
 }
 
