@@ -214,12 +214,15 @@ nav {
 }
 
 .feature__block__text p {
+  display: block;
+  margin: auto;
   text-align: left;
   margin: 0;
   font-weight: 500;
   font-size: 12.8074px;
   line-height: 18px;
   opacity: 0.7;
+  margin-bottom: 40px;
   
 }
 
@@ -239,7 +242,6 @@ nav {
   margin: auto;
   padding-top: 100px;
   
-
 }
 
 .extension__title {
