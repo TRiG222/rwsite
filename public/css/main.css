@@ -221,7 +221,7 @@ nav {
   font-weight: 500;
   font-size: 12.8074px;
   line-height: 18px;
-  opacity: 0.5;
+  opacity: 0.7;
   
 }
 
@@ -308,6 +308,8 @@ nav {
 
 }
 
+
+
 .faq__title {
   padding-top: 150px;
   text-align: center;
@@ -315,6 +317,40 @@ nav {
   font-size: 33px;
 }
 
+.faq__content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq__block__img {
+  padding-top: 100px;
+}
+
+.faq__img {
+  height: 900px;
+}
+
+.faq__block {
+  padding-top: 50px;
+}
+
+.faq__block__content {
+  padding-top: 45px;
+  
+}
+
+.faq__block__title {
+  font-size: 16px;
+}
+
+.faq__block__text {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
 
 
 
