@@ -15,10 +15,11 @@ div {
 }
 
 body {
-    height: 4604px;
+    /* height: 4622px; */
     background-color: black;
     font-family: sans-serif;
-    background-image: url(../img/fon.png);
+    /* background-image: url(../img/fon.png); */
+    background-image: url(../img/FON4IK.png);
     background-size: cover;
     background-position: center center;
     color: #FFFFFF;
@@ -361,6 +362,57 @@ nav {
   line-height: 20px;
 
 }
+
+.contact {
+  padding-top: 100px;
+  /* height: 120px; */
+}
+
+
+
+.img__logo{
+  padding-top: 60px;
+}
+
+.contact__div {
+  height: 150px;
+  display: flex;
+  justify-content: space-between
+}
+
+
+.nav__bottom {
+  text-align: center;
+
+}
+
+.nav__item__bottom {
+  cursor: pointer;
+  padding: 40px;
+  letter-spacing: .10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: .10s all ease-in-out;
+}
+
+
+.nav__item__bottom:last-child {
+  padding-right: 0
+}
+
+.nav__item__bottom:hover{
+  opacity: 1;
+  color: #8BEAFF;
+}
+
+
+.social {
+  padding: 14px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
 
 
 
