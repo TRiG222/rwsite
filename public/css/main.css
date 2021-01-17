@@ -422,9 +422,9 @@ footer {
 
 @media screen and (max-width : 480px) {
   html,body {
-    overflow:  hidden;
+    overflow-x:  hidden;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -491,18 +491,30 @@ footer {
     font-weight: bold;
   }
 
+  .features {
+    height: auto;
+  }
+
   .feature__title {
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;
     letter-spacing: 3px;
     font-size: 25px;
 }
+
+  .feature__block {
+    margin-top: 40px;
+    display: block;
+    /* justify-content: space-between; */
+}
+  
 
   
 
   .feature__content {
       position: relative;
       margin: auto;
+      
   }
 
   
@@ -518,6 +530,8 @@ footer {
     border-radius: 7.70252px;
     padding-top: 10px;
     margin-top: 40px;
+    width: 100%;
+    height: 100%;
   }
 
   .container {
@@ -526,6 +540,12 @@ footer {
     max-width: 480px;
     padding: 0 15px;
     margin: 0 auto;
+  }
+
+  .monitors__img {
+    width: 10px;
+    height: 10px;
+    
   }
   
 
