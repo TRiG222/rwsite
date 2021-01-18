@@ -660,7 +660,8 @@ footer {
   }
 
   .faq__block__text {
-    font-size: 11px;
+    font-size: 13px;
+
   }
 
   .contact {
@@ -674,7 +675,7 @@ footer {
 }
 
 
-@media screen and (max-width : 768px) and (min-width : 480px) {
+@media screen and (max-width : 768px) and (min-width : 481px) {
 
   .feature__content {
     position: relative;
