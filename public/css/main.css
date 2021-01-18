@@ -58,7 +58,7 @@ body {
 }
 
 nav {
-  margin-top: 16px;
+  margin-top: 40px;
   display: block;
 }
 
@@ -113,7 +113,7 @@ nav {
 
 .buy__btn {
   margin: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   display: block;
   font-size: 16px;
   height: 50px;
@@ -136,6 +136,7 @@ nav {
   font-size: 40px;
   opacity: 1;
   text-align: left;
+  
 }
 
 .colored {
@@ -191,14 +192,12 @@ nav {
 .feature__block__content {
   display: flex;
   justify-content: space-between;
-  height: 180px;
   width: 480px;
   box-sizing: border-box;
   filter: drop-shadow(0px 3.08101px 3.08101px rgba(0, 0, 0, 0.25));
   border-radius: 7.70252px;
   background: rgba(0, 0, 0, 0.8);
   box-shadow: 0px 28.4609px 77.0252px rgba(0, 209, 255, 0.3);
-  border-radius: 7.70252px;
 }
 
 .feature__block__img {
@@ -208,29 +207,28 @@ nav {
 }
 
 .feature__block__text {
-  padding-right: 15px;
+  padding: 20px;
   height: auto;
   display: block;
   position: relative;
-  padding-top: 14px;
+  
 }
 
 .feature__block__text h3 {
-  margin: 12px 0 8px 0;
+  margin: auto;
+  margin-bottom: 10px;
   color: #fff;
   
 }
 
 .feature__block__text p {
-  display: block;
   margin: auto;
+  display: block;
   text-align: left;
-  margin: 0;
   font-weight: 500;
-  font-size: 12.8074px;
+  font-size: 13px;
   line-height: 18px;
   opacity: 0.7;
-  margin-bottom: 40px;
   
 }
 
@@ -449,6 +447,12 @@ footer {
     margin-left: 8px;
     margin-top: 6px;
 }
+
+  .header__div {
+    padding-top: 30px;
+  }
+
+
   .def__btn {
     display: block;
     /* height: 50px; */
@@ -475,8 +479,8 @@ footer {
   .heading__disc {
     padding-top: 40px;
     letter-spacing: .3px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 18px;
     color: #A0A0A0;
 }
 
@@ -532,10 +536,18 @@ footer {
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 28.4609px 77.0252px rgba(0, 209, 255, 0.3);
     border-radius: 7.70252px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin-top: 40px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+  }
+
+  .feature__block__img {
+    margin: 10px 5px 0px 10px;
+  }
+
+  .feature__block__text {
+    padding: 15px;
   }
 
   .container {
@@ -652,6 +664,13 @@ footer {
 
   .faq__block__text {
     font-size: 11px;
+  }
+
+  .contact {
+    padding-top: 50px;
+}
+  .contact__div {
+    height: auto;
   }
   
 
