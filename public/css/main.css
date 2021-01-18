@@ -14,9 +14,6 @@ a {
     color: #fff
 }
 
-/* img {
-  max-width: 100%;
-} */
 
 div {
   display: block;
@@ -27,7 +24,7 @@ body {
   font-family: sans-serif;
   background-image: url(../img/FON4IK.png);
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
   color: #FFFFFF;
 }
 
@@ -674,4 +671,30 @@ footer {
   }
   
 
+}
+
+
+@media screen and (max-width : 768px) and (min-width : 480px) {
+
+  .feature__content {
+    position: relative;
+    margin-top: 60px;
+    width: auto;
+    margin: auto;
+  }
+
+  .extension__content {
+    position: relative;
+    margin-top: 60px;
+    width: auto;
+    margin: auto;
+  }
+
+  .html {
+    display: block;
+    position: relative;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 }
