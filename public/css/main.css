@@ -19,6 +19,11 @@ div {
   display: block;
 }
 
+.monitors__img__mobile {
+    visibility: hidden;
+    display: none;
+}
+
 body {
   background-color: black;
   font-family: sans-serif;
@@ -560,9 +565,18 @@ footer {
   }
 
   .monitors__img {
-    max-width: 100%;
+    visibility: hidden;
+    display: none;
+    /* max-width: 100%; */
     
   }
+
+  .monitors__img__mobile {
+    visibility: visible;
+    display: block;
+    max-width: 100%;
+    /* display: none; */
+}
 
   .monitors__title {
     padding-top: 100px;
