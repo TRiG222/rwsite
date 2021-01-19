@@ -455,13 +455,15 @@ footer {
   .logo__bottom {
     width: 90px;
     border-radius: 45px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     margin-top: 80px;
 }
 
   .logo {
     width: 90px;
     margin-top: 0px;
+    margin-left: 5px;
+
   }
 
   .header__div {
@@ -637,6 +639,7 @@ footer {
 
   .extension__block__img__clic {
     margin: 20px;
+    padding-top: 40px;
   }
 
   .extension__block__text__clic {
@@ -654,7 +657,7 @@ footer {
   }
 
   .extension__block__text__aco {
-    padding: 15px;
+    padding: 0px 15px 25px 15px;
   }
 
   .faq__title {
@@ -671,10 +674,14 @@ footer {
 
   .faq__block {
     padding-top: 40px;
+    margin-left: 0px;
+    padding-right: 30px;
+    padding-left: 10px;
   }
 
   .faq__img {
-    height: 990px;
+    height: 160vh;
+    padding-left: 20px;
   }
 
   .faq__block__title {
@@ -684,7 +691,8 @@ footer {
   .faq__block__content {
     width: auto;
     height: auto;
-    padding-top: 40px;
+    padding-top: 55px;
+
   }
 
   .faq__block__text {
@@ -711,6 +719,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 70px;
+    margin-right: 45px;
 }
 
   .bottom__nav__item {
@@ -766,4 +775,18 @@ footer {
     padding: 0 15px;
     margin: 0 auto;
   }
+
+  .monitors__img {
+    visibility: hidden;
+    display: none;
+    /* max-width: 100%; */
+    
+  }
+
+  .monitors__img__mobile {
+    visibility: visible;
+    display: block;
+    max-width: 100%;
+    /* display: none; */
+}
 }
