@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
     res.sendFile('index.html', { root: __dirname })
 })
 
+app.get('/restock.html', (req, res) => {
+    res.sendFile('restock.html', { root: __dirname })
+})
+
 app.listen(PORT, () => {
     console.log('server start')
 })
