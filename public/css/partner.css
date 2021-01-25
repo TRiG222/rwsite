@@ -249,6 +249,7 @@
       }
 
       iframe {
+          overflow-x:  hidden;
           width: auto;
           padding-bottom: 20px;
       }
