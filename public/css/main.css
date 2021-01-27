@@ -337,10 +337,33 @@ nav {
 
 }
 
+.tweet {
+  display: block;
+  position: relative;
+  max-width: 500px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+  
+
+}
+
+.tweet__title {
+  padding-top: 70px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 33px;
+
+}
+
+.tweetdeck {
+  padding-top: 50px;
+
+}
 
 
 .faq__title {
-  padding-top: 10 0px;
+  padding-top: 200px;
   text-align: center;
   letter-spacing: 1px;
   font-size: 33px;
@@ -675,6 +698,13 @@ iframe {
 
   .extension__block__text__aco {
     padding: 0px 15px 25px 15px;
+  }
+
+  .tweet__title {
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 25px;
   }
 
   .faq__title {
