@@ -130,6 +130,18 @@ nav {
   font-weight: bold;
 }
 
+.buy__btn:hover {
+  background: #8BEAFF;
+  border: 2px solid #8BEAFF;
+  box-shadow: 0px 3.25581px 8.13953px rgba(139, 234, 255, 0.4);
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 50px;
+
+}
+
 
 
 .heading {
