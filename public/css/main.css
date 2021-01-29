@@ -15,6 +15,9 @@ a {
     color: #fff
 }
 
+.restock{
+  color: red;
+}
 
 div {
   display: block;
@@ -24,6 +27,12 @@ div {
     visibility: hidden;
     display: none;
 }
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  }
 
 body {
   background-color: black;
@@ -96,6 +105,8 @@ nav {
   transition: .3s all ease;
   cursor: pointer;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .def__btn:hover {
