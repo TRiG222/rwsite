@@ -184,13 +184,13 @@ nav {
 }
 
 .monitors {
-  height: 850px;
+  height: 1000px;
   color: #FFFFFF;
 
 }
 
 .extension {
-  height: 850px;
+  height: 1350px;
   color: #FFFFFF;
 }
 
@@ -303,6 +303,21 @@ nav {
   border-radius: 7.70252px;
 }
 
+.extension__block__content_ozon {
+  margin: auto;
+  height: 425px;
+  width: 500px;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 3.08101px 3.08101px rgba(0, 0, 0, 0.25));
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 21.3457px 35.5762px rgba(0, 209, 255, 0.3);
+  border-radius: 7.70252px;
+  margin-top: 50px;
+  
+  
+ 
+}
+
 .extension__title__clic {
   text-align: center;
   padding-top: 39px;
@@ -324,6 +339,11 @@ nav {
   text-align: center;
   line-height: 28px;
 
+}
+
+.ext__img {
+  border-radius: 6px;
+  box-shadow: 0px -1px 20px 9px rgb(0 209 255 / 30%);
 }
 
 .extension__title__aco {
@@ -349,11 +369,13 @@ nav {
 }
 
 .tweet {
+  
   display: block;
   position: relative;
   max-width: 500px;
   padding: 0 15px;
   margin: 0 auto;
+  /* padding-top: 0px; */
   
   
 
@@ -604,11 +626,8 @@ iframe {
     border-radius: 7.70252px;
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 28.4609px 77.0252px rgba(0, 209, 255, 0.3);
-    border-radius: 7.70252px;
-    /* padding-top: 10px; */
     margin-top: 40px;
     width: 100%;
-    /* height: 100%; */
   }
 
   .feature__block__img {
@@ -671,6 +690,7 @@ iframe {
 
   .ext__img {
     max-width: 100%;
+    
   }
 
   .extension__block {
@@ -678,6 +698,12 @@ iframe {
   }
 
   .extension__block__content {
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .extension__block__content_ozon {
     width: auto;
     height: auto;
     margin-top: 60px;
