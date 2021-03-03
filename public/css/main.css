@@ -506,6 +506,11 @@ iframe {
   height: auto;
 }
 
+.black {
+  color: #000000;
+  cursor: pointer
+}
+
 @media screen and (max-width : 480px) {
   html,body {
     overflow-x:  hidden;
