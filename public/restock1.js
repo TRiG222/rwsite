@@ -1,3 +1,3 @@
 function restock1() {
-    alert('123')
+    alert('Password = cRj9B4dJad ')
 }
