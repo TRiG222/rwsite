@@ -610,6 +610,12 @@ iframe {
     font-weight: bold;
   }
 
+  .pink {
+
+    border: 2px solid rgb(194, 98, 194);
+  
+  }
+
   .features {
     height: auto;
   }
